@@ -6,9 +6,17 @@ cnoremap <expr>
       \	? expand('%:h').'/' : '%%'
 nnoremap <C-s> 
       \	:mksession! mysession.vim<CR>:wviminfo! mysession.viminfo<CR>
-nnoremap <C-j> <Plug>(edgemotion-j)
-nnoremap <C-k> <Plug>(edgemotion-k)
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>
+inoremap <C-n> :NERDTreeToggle<CR>
+
 
 let chk = getftype("mysession.viminfo")
 if chk != ""
@@ -82,6 +90,11 @@ map z*  <Plug>(asterisk-z*)
 map gz* <Plug>(asterisk-gz*)
 map z#  <Plug>(asterisk-z#)
 map gz# <Plug>(asterisk-gz#)
+
+" fzf map
+nnoremap <silent> <C-p> :Files<CR>
+nnoremap <silent> <C-SPACE> :Buffers<CR>
+nnoremap <silent> <space>p :Lines<CR>
 
 " other
 set helplang=ja,en
