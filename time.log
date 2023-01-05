@@ -1,0 +1,137 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.020  000.020: --- VIM STARTING ---
+000.148  000.128: Allocated generic buffers
+000.150  000.002: locale set
+000.160  000.010: window checked
+000.859  000.699: inits 1
+000.885  000.026: parsing arguments
+000.886  000.001: expanding arguments
+000.915  000.029: shell init
+001.576  000.661: Termcap init
+001.592  000.016: inits 2
+001.718  000.126: init highlight
+012.649  010.600  010.600: sourcing /data/data/com.termux/files/usr/share/vim/vim90/filetype.vim
+012.822  000.080  000.080: sourcing /data/data/com.termux/files/usr/share/vim/vim90/ftplugin.vim
+012.928  000.047  000.047: sourcing /data/data/com.termux/files/usr/share/vim/vim90/indent.vim
+014.766  001.370  001.370: sourcing /data/data/com.termux/files/usr/share/vim/vim90/colors/lists/default.vim
+014.930  001.757  000.387: sourcing /data/data/com.termux/files/usr/share/vim/vim90/syntax/syncolor.vim
+015.068  002.005  000.248: sourcing /data/data/com.termux/files/usr/share/vim/vim90/syntax/synload.vim
+015.214  002.225  000.220: sourcing /data/data/com.termux/files/usr/share/vim/vim90/syntax/syntax.vim
+016.275  000.338  000.338: sourcing /data/data/com.termux/files/usr/share/vim/vim90/pack/dist/opt/matchit/plugin/matchit.vim
+016.323  000.696  000.358: sourcing /data/data/com.termux/files/usr/share/vim/vim90/macros/matchit.vim
+016.354  014.583  000.935: sourcing $VIM/vimrc
+016.633  000.017  000.017: sourcing /data/data/com.termux/files/usr/share/vim/vim90/filetype.vim
+016.714  000.020  000.020: sourcing /data/data/com.termux/files/usr/share/vim/vim90/ftplugin.vim
+016.787  000.012  000.012: sourcing /data/data/com.termux/files/usr/share/vim/vim90/indent.vim
+017.466  000.281  000.281: sourcing /data/data/com.termux/files/usr/share/vim/vim90/syntax/nosyntax.vim
+017.796  000.201  000.201: sourcing /data/data/com.termux/files/usr/share/vim/vim90/syntax/syncolor.vim
+017.955  000.434  000.233: sourcing /data/data/com.termux/files/usr/share/vim/vim90/syntax/synload.vim
+018.084  000.953  000.238: sourcing /data/data/com.termux/files/usr/share/vim/vim90/syntax/syntax.vim
+018.138  001.719  000.717: sourcing /data/data/com.termux/files/usr/share/vim/vim90/defaults.vim
+018.459  000.016  000.016: sourcing /data/data/com.termux/files/usr/share/vim/vim90/filetype.vim
+018.542  000.021  000.021: sourcing /data/data/com.termux/files/usr/share/vim/vim90/ftplugin.vim
+020.996  002.384  002.384: sourcing /data/data/com.termux/files/home/.vim/autoload/plug.vim
+025.822  001.779  001.779: sourcing /data/data/com.termux/files/usr/share/vim/vim90/ftoff.vim
+035.671  000.033  000.033: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-fugitive/ftdetect/fugitive.vim
+035.888  008.053  008.020: sourcing /data/data/com.termux/files/usr/share/vim/vim90/filetype.vim
+036.094  000.023  000.023: sourcing /data/data/com.termux/files/usr/share/vim/vim90/ftplugin.vim
+036.262  000.010  000.010: sourcing /data/data/com.termux/files/usr/share/vim/vim90/indent.vim
+037.061  000.173  000.173: sourcing /data/data/com.termux/files/usr/share/vim/vim90/syntax/syncolor.vim
+037.295  020.908  006.730: sourcing $HOME/.vimrc
+037.301  000.092: sourcing vimrc file(s)
+037.784  000.234  000.234: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-commentary/plugin/commentary.vim
+038.721  000.115  000.115: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/util.vim
+060.839  022.719  022.604: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/context.vim
+061.386  000.402  000.402: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/modes.vim
+061.490  023.443  000.322: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/init.vim
+062.213  000.211  000.211: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys.vim
+062.655  000.191  000.191: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/roots.vim
+062.976  000.172  000.172: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/bookmarks.vim
+067.117  000.384  000.384: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/common.vim
+068.662  000.644  000.644: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/help.vim
+069.130  000.170  000.170: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/help.vim
+070.437  000.062  000.062: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/nop.vim
+071.570  000.053  000.053: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/search.vim
+072.801  000.236  000.236: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/buffer.vim
+075.031  000.120  000.120: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/file.vim
+076.508  000.116  000.116: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/tab.vim
+077.425  000.113  000.113: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/workspace.vim
+077.929  000.068  000.068: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/keys/bookmark.vim
+078.665  040.795  014.812: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/plugin/ctrlspace.vim
+079.211  000.204  000.204: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/autoload/nerdtree.vim
+080.046  000.506  000.506: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/path.vim
+080.250  000.133  000.133: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/menu_controller.vim
+080.390  000.078  000.078: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/menu_item.vim
+080.563  000.111  000.111: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
+080.891  000.267  000.267: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/bookmark.vim
+081.202  000.246  000.246: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim
+081.745  000.478  000.478: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim
+082.008  000.196  000.196: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/opener.vim
+082.319  000.251  000.251: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/creator.vim
+082.429  000.049  000.049: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/flag_set.vim
+082.628  000.138  000.138: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/nerdtree.vim
+083.021  000.334  000.334: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/ui.vim
+083.115  000.023  000.023: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/event.vim
+083.211  000.037  000.037: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/lib/nerdtree/notifier.vim
+083.825  000.522  000.522: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim
+087.071  000.101  000.101: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim
+087.987  000.896  000.896: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim
+088.061  000.050  000.050: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/nerdtree_plugin/vcs.vim
+088.590  000.431  000.431: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+088.927  010.149  005.098: sourcing /data/data/com.termux/files/home/.vim/plugged/nerdtree/plugin/NERD_tree.vim
+089.211  000.219  000.219: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-tabpagecd/plugin/tabpagecd.vim
+091.885  002.582  002.582: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-devicons/plugin/webdevicons.vim
+092.779  000.818  000.818: sourcing /data/data/com.termux/files/home/.vim/plugged/fzf/plugin/fzf.vim
+093.914  001.060  001.060: sourcing /data/data/com.termux/files/home/.vim/plugged/fzf.vim/plugin/fzf.vim
+094.174  000.150  000.150: sourcing /data/data/com.termux/files/home/.vim/plugged/previm/plugin/previm.vim
+094.331  000.074  000.074: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-maketable/plugin/maketable.vim
+094.795  000.394  000.394: sourcing /data/data/com.termux/files/home/.vim/plugged/traces.vim/plugin/traces.vim
+094.938  000.057  000.057: sourcing /data/data/com.termux/files/home/.vim/plugged/translate.vim/plugin/translate.vim
+096.542  001.533  001.533: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-fugitive/plugin/fugitive.vim
+097.054  000.397  000.397: sourcing /data/data/com.termux/files/home/.vim/plugged/quick-scope/plugin/quick_scope.vim
+097.247  000.058  000.058: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-edgemotion/plugin/edgemotion.vim
+097.922  000.219  000.219: sourcing /data/data/com.termux/files/home/.vim/plugged/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+098.107  000.792  000.573: sourcing /data/data/com.termux/files/home/.vim/plugged/ctrlp.vim/plugin/ctrlp.vim
+098.352  000.166  000.166: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-asterisk/plugin/asterisk.vim
+098.691  000.267  000.267: sourcing /data/data/com.termux/files/home/.vim/plugged/tabular/plugin/Tabular.vim
+099.197  000.425  000.425: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-searchindex/plugin/searchindex.vim
+099.697  000.124  000.124: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/getscriptPlugin.vim
+100.077  000.346  000.346: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/gzip.vim
+100.411  000.298  000.298: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/logiPat.vim
+100.498  000.055  000.055: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/manpager.vim
+100.793  000.265  000.265: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/matchparen.vim
+101.556  000.731  000.731: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/netrwPlugin.vim
+101.639  000.015  000.015: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/rrhelper.vim
+101.706  000.031  000.031: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/spellfile.vim
+101.993  000.251  000.251: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/tarPlugin.vim
+102.182  000.144  000.144: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/tohtml.vim
+102.427  000.208  000.208: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/vimballPlugin.vim
+102.725  000.246  000.246: sourcing /data/data/com.termux/files/usr/share/vim/vim90/plugin/zipPlugin.vim
+102.875  000.033  000.033: sourcing /data/data/com.termux/files/usr/share/vim/vim90/pack/dist/opt/matchit/plugin/matchit.vim
+102.883  002.665: loading plugins
+103.558  000.516  000.516: sourcing /data/data/com.termux/files/home/.vim/pack/plugins/start/vim-molder/plugin/molder.vim
+103.624  000.225: loading packages
+104.417  000.326  000.326: sourcing /data/data/com.termux/files/home/.vim/plugged/tabular/autoload/tabular.vim
+107.077  003.344  003.018: sourcing /data/data/com.termux/files/home/.vim/plugged/tabular/after/plugin/TabularMaps.vim
+107.105  000.137: loading after plugins
+107.120  000.015: inits 3
+107.298  000.178: reading viminfo
+107.314  000.016: setting raw mode
+107.334  000.020: start termcap
+107.387  000.053: clearing screen
+107.552  000.165: opening buffers
+108.022  000.340  000.340: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/buffers.vim
+108.240  000.083  000.083: sourcing /data/data/com.termux/files/home/.vim/plugged/vim-ctrlspace/autoload/ctrlspace/jumps.vim
+108.760  000.273  000.273: sourcing /data/data/com.termux/files/home/.vim/plugged/quick-scope/autoload/quick_scope.vim
+109.038  000.090  000.090: sourcing /data/data/com.termux/files/home/.vim/pack/plugins/start/vim-molder/autoload/molder.vim
+109.068  000.730: BufEnter autocommands
+109.071  000.003: editing files in windows
+109.586  000.515: VimEnter autocommands
+109.587  000.001: before starting main loop
+110.228  000.641: first screen update
+110.230  000.002: --- VIM STARTED ---
