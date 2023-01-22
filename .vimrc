@@ -1,43 +1,25 @@
-let g:did_install_default_menus = 1
-let g:did_install_syntax_menu   = 1
-let g:did_indent_on             = 1
-let g:did_load_filetypes        = 1
-let g:did_load_ftplugin         = 1
-let g:loaded_2html_plugin       = 1
-let g:loaded_gzip               = 1
-let g:loaded_man                = 1
-let g:loaded_matchit            = 1
-let g:loaded_matchparen         = 1
-let g:loaded_netrwPlugin        = 1
-let g:loaded_remote_plugins     = 1
-let g:loaded_shada_plugin       = 1
-let g:loaded_spellfile_plugin   = 1
-let g:loaded_tarPlugin          = 1
-let g:loaded_tutor_mode_plugin  = 1
-let g:loaded_zipPlugin          = 1
-let g:skip_loading_mswin        = 1
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 cnoremap <expr>
-      \	%% getcmdtype() == ':' 
-      \	? expand('%:h').'/' : '%%'
+			\	%% getcmdtype() == ':' 
+			\	? expand('%:h').'/' : '%%'
 nnoremap <C-s> 
-      \	:mksession! mysession.vim<CR>:wviminfo! mysession.viminfo<CR>
+			\	:mksession! mysession.vim<CR>:wviminfo! mysession.viminfo<CR>
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+nnoremap <C-n> :NERDTreeToggle<CR>
 
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
-inoremap <C-n> :NERDTreeToggle<CR>
 
 
 let chk = getftype("mysession.viminfo")
 if chk != ""
-  rviminfo! mysession.viminfo
+	rviminfo! mysession.viminfo
 endif
 
 set nocompatible
@@ -49,7 +31,7 @@ Plug 'tpope/vim-commentary', { 'on': [] }
 " ヘルプの日本語化
 Plug 'vim-jp/vimdoc-ja', { 'on': [] }
 " ファイラー、ツリー表示も可能。
-Plug 'preservim/nerdtree', { 'on': 'NerdTreeToggle' }
+Plug 'preservim/nerdtree', { 'on': [] }
 " cdでtcdしてくれるやつ
 Plug 'kana/vim-tabpagecd', { 'on': [] }
 " NERDTreeとかにアイコン追加してくれるやつ
@@ -83,7 +65,37 @@ Plug 'godlygeek/tabular', { 'on': [] }
 Plug 'google/vim-searchindex', { 'on': [] }
 
 Plug 'dstein64/vim-startuptime', { 'on': 'StartupTime' }
+" Use release branch (recommend)
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'on': []}
+
+Plug 'weilbith/nvim-code-action-menu', { 'on': 'CodeActionMenu' }
 call plug#end()
+function! s:LazyLoadPlugs(timer) abort
+  " save current position by marking Z because plug#load reloads current buffer
+  normal! mZ
+  call plug#load(
+				\ 'vimdoc-ja',
+				\ 'vim-tabpagecd',
+				\ 'vim-devicons',
+				\ 'fzf',
+				\ 'fzf.vim',
+				\ 'traces.vim',
+				\ 'translate.vim',
+				\ 'vim-fugitive',
+				\ 'quick-scope',
+				\ 'vim-edgemotion',
+				\ 'tabular',
+				\ 'vim-searchindex',
+				\ 'coc.nvim',
+				\ 'nerdtree',
+				\ 'nvim-code-action-menu',
+        \ )
+  normal! g`Z
+  delmarks Z
+
+endfunction
+
+call timer_start(20, function("s:LazyLoadPlugs"))
 
 " fzf map
 nnoremap <silent> <C-p> :Files<CR>
